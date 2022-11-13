@@ -1,0 +1,44 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+.App {
+  text-align: center;
+}
+
+*,
+body {
+
+  font-family: "Poppins";
+  font-weight: "regular";
+}
+
+:root {
+  --blue: hsl(212, 86%, 64%);
+  --white: #ffffff;
+  --Red: hsl(0, 78%, 62%);
+  --Orange: hsl(34, 97%, 64%);
+  --DarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --Cyan: hsl(180, 62%, 55%);
+}
+
+/*------------
+                card styling
+                             ---------------*/
+
+.card-style {
+  border: 1px solid #F3FAFF;
+  border-radius: 7px;
+  height: 300px;
+  /* border-top: 5px solid var(--blue); */
+
+}
+
+.card-paragraph {
+  color: var(--GrayishBlue);
+  font-size: 12px;
+}
+
+.card-heading {
+  font-size: 30px;
+  color: var(--DarkBlue);
+}
